@@ -1,0 +1,16 @@
+      <script>
+        document.getElementById("send").addEventListener("click", doStuff);
+        
+        function doStuff(){
+            var uIn = {};      
+            uIn.uName = document.getElementById("userName").value;
+            uIn.g1 = document.getElementById("gast1").value;
+            uIn.g2 = document.getElementById("gast2").value;  
+      
+            google.script.run.userClicked(uIn); 
+      
+            document.getElementById("userName").value = "";
+            document.getElementById("gast1").value = "";
+            document.getElementById("gast2").value = "";      
+    }
+      </script>
