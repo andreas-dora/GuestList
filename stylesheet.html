@@ -1,0 +1,128 @@
+<style>
+  *{
+      margin: 0px;
+      padding: 0 px;
+      box-sizing: border-box;
+  }
+  body{ 
+    font-family: 'Roboto', sans-serif;
+    --ghost:ghostWhite;
+    --backG:#2d7086;
+    color:var(--ghost);
+    background-color: var(--backG);
+  }
+  #page{
+      max-width: 1080px;
+      min-width: 720px;
+      margin: 10px auto 0 auto;
+      
+  }
+  button{
+    font-family: 'Roboto', sans-serif;
+  }
+  u{
+      font-weight: 300;
+      text-decoration: none;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  a:active{
+      color: silver;
+  }
+  a:hover{
+      color: slategrey;
+  }
+  #myForm{
+      width: 455px;
+      background-color: var(--backG);
+      margin: 40px auto 20px auto;
+  
+  }
+  ::placeholder{
+    color: darkgray;
+    font-weight: 300;
+
+}
+input {
+    height: 40px;
+    width: 450px;
+    font-size: 18px;
+    font-weight: 600;
+
+    background-color: white;
+    
+    border: 1px solid var(--ghost);
+    border-radius: 3px; 
+
+    -webkit-box-shadow: 0 3px 10px -6px black;
+    outline: none;
+    margin: 5px 5px 5px 0;
+    padding-left: 5px;
+
+}
+input[type=submit]{
+    background-color: var(--ghost);
+    
+    border: 1px solid darkgray;
+}
+input:focus, input:hover{
+    border: 1px solid #000000;
+}
+input[type=text]:focus, input[type=text]:active{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    
+}
+
+textarea{
+    width: 450px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid var(--ghost);
+    border-radius: 3px;
+    outline: none;
+    resize: none;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+
+
+}
+  textarea:focus, textarea:hover{
+      border: 1px solid #000000;
+  }
+  textarea:focus, textarea:active{
+      border: 1px solid #000000;
+  }
+  
+  button{
+    height: 40px;
+    width: 450px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: ghostwhite;
+    background-color: var(--backG);
+    
+    border: 2px solid silver;
+    border-radius: 3px; 
+
+    -webkit-box-shadow: 0 3px 10px -6px black;
+    outline: none;
+    margin: 20px 5px 5px 0;
+    padding-left: 5px;
+  }
+  button:hover{
+      border: 2px solid white;
+      color: white;
+  }
+  
+  footer{
+      font-size: 18px;
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+  }
+  
+</style>
